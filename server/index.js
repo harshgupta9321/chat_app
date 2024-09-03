@@ -33,7 +33,7 @@ const server = app.listen(port, () =>
 
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://harsh-chat-app-new.netlify.app/",
     credentials: true,
   },
 });
